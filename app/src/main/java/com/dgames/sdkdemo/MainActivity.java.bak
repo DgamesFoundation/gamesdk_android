@@ -69,8 +69,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
         });
     }
 
-
-
     private void setPermission() {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
             permissionUtils.requestRunPermisssion(perms, new PermissionListener() {

@@ -240,9 +240,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
     public void pay() {
         if (DGameManager.isLogin()) {
             orderId = String.valueOf(Math.random() * 1000000000);
-            String amount = edit.getText().toString().trim();
-            if (amount == null || amount.equals("")) {
-                ToastFactory.showToast(this, "Please enter the amount of recharge!");
+           if (amount == null || amount.equals("")||amount.equals("0")) {
+                ToastFactory.showToast(this, "Please enter amount!");
             } else {
                 DGameManager.setSDKPayCallback(new IPayCallback() {
                     @Override
@@ -270,7 +269,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
         } else {
             login();
         }
-
     }
     @Override
     protected void onDestroy() {
