@@ -1,0 +1,37 @@
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.dgames.sdkdemo"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+        ndk {
+            abiFilters"armeabi-v7a", "x86"
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+        implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation(name: 'dg_libproject', ext: 'aar')
+    implementation(name: 'gamesdklib', ext: 'aar')
+        implementation('org.web3j:core:3.3.1-android')
+        implementation 'com.journeyapps:zxing-android-embedded:3.3.0@aar'
+        implementation 'com.google.zxing:core:3.3.0'
+        implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+        implementation 'com.android.support:multidex:1.0.3'
+
+}

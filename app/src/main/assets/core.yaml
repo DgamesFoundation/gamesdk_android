@@ -1,0 +1,14 @@
+service:
+    cliaddress: 39.105.120.160:8002
+
+logging:
+
+    level: info
+    client: info
+
+peer:
+    gomaxprocs: -1
+    workers: 2
+    tls:
+        serviceenabled: true
+        serverhostoverride: gateway.helloworld.com
