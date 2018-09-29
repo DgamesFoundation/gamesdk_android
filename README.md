@@ -11,7 +11,7 @@
     
 ## Dgame SDK Functional introduction
 
-   1.User registration, login and switch account function<br>
-   2.User payment function<br>
-   3.Display suspension box and personal center function<br>
-   4.Display game user account information and transfer record function<br>
+   1. User registration, login and switch account function<br>
+   2. User payment function<br>
+   3. Display suspension box and personal center function<br>
+   4. Display game user account information and transfer record function<br>
