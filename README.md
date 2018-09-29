@@ -2,7 +2,7 @@
 
 ## Dgame SDK Summary
 
-    Dgame SDK is a custom-developed login payment component for block-chain games.It provides the login payment function for Android block-chain games,shortening the development time of game developers and product launch time.Embedding it in multiple games that support this component can break through barriers to trading in different game currencies,provide an interconnected payment for the game world, and even build a game economy alliance.
+   Dgame SDK is a custom-developed login payment component for block-chain games.It provides the login payment function for Android block-chain games,shortening the development time of game developers and product launch time.Embedding it in multiple games that support this component can break through barriers to trading in different game currencies,provide an interconnected payment for the game world, and even build a game economy alliance.
     
 ## Dgame SDK Functional introduction
 
