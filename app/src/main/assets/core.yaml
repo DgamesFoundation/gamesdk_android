@@ -1,8 +1,9 @@
 service:
-    cliaddress: 39.105.120.160:8002
-
+ cliaddress: 192.168.60.16:8000
+ erc721:
+       chaincodeName: erc721_01
+       open: true
 logging:
-
     level: info
     client: info
 

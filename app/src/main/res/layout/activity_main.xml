@@ -17,38 +17,56 @@
         android:background="#ffffff"
         android:text="1"
         android:textSize="15dp" />
-    <Button
-        android:id="@+id/btn_center"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text="个人中心" />
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_gravity="center"
         android:layout_width="100dp"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="登录" />
 
     <Button
-        android:id="@+id/btn_pay"
-        android:layout_gravity="center"
+        android:id="@+id/btn_center"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="个人中心" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="支付" />
 
     <Button
         android:id="@+id/btn_query"
-        android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="查询ERC_721" />
+        android:layout_gravity="center"
+        android:text="查询ERC_721"
+        />
+
     <Button
         android:id="@+id/btn_asset"
-        android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="转帐ERC_721" />
+        android:layout_gravity="center"
+        android:text="转帐ERC_721"
+         />
+
+    <Button
+        android:id="@+id/btn_query_game"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查询子链余额" />
+
+    <Button
+        android:id="@+id/btn_query_dgas"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查询dgas余额" />
 </LinearLayout>
