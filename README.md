@@ -10,5 +10,5 @@
    2. User payment function<br>
    3. Display suspension box and personal center function<br>
    4. Display game user account information and transfer record function<br>
-   5.ERC_721 transfer and query function<br>
-   6.Current user chain currency and DGAs balance inquiry function<br>
+   5. ERC_721 transfer and query function<br>
+   6. Current user chain currency and DGAs balance inquiry function<br>
