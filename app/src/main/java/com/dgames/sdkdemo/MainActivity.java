@@ -38,7 +38,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private String appId = "V431rSWOMpq3xGGJYSQTGH5oxlMBiXjJRw";
     //star  appid
 //    private String appId = "VxIlXUGPLo-XmtB1COUHnUHEYePEBXNXXA";
+    //Offline Subchain Query Address
 //    private String export_browse = "http://192.168.60.16:801";
+    //On-line Sublink Query Address
     private String export_browse = "http://47.105.47.88:4490";
     private String decimals = "100000000";
     private String language = "en";

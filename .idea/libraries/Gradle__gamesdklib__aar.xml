@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: gamesdklib:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gamesdklib.aar/0bffd66d12263e455388c713685b248c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gamesdklib.aar/0bffd66d12263e455388c713685b248c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
