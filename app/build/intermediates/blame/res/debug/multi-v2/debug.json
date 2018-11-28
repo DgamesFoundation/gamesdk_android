@@ -33,6 +33,38 @@
             ]
         },
         {
+            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd02768abc83c1c56528e052710b293b\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,307,417,503,607,726,810,893,979,1083,1196,1302,1407,1520,1627,1796,1893",
+                        "endColumns": "104,96,109,85,103,118,83,82,85,103,112,105,104,112,106,168,96,88",
+                        "endOffsets": "205,302,412,498,602,721,805,888,974,1078,1191,1297,1402,1515,1622,1791,1888,1977"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c0d4b7b1d33a5e754842fa1c8dc2a425\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1982",
+                        "endColumns": "100",
+                        "endOffsets": "2078"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
             "map": [
                 {
@@ -82,38 +114,6 @@
             ]
         },
         {
-            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-hr_values-hr.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd02768abc83c1c56528e052710b293b\\res\\values-hr\\values-hr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,307,417,503,607,726,810,893,979,1083,1196,1302,1407,1520,1627,1796,1893",
-                        "endColumns": "104,96,109,85,103,118,83,82,85,103,112,105,104,112,106,168,96,88",
-                        "endOffsets": "205,302,412,498,602,721,805,888,974,1078,1191,1297,1402,1515,1622,1791,1888,1977"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c0d4b7b1d33a5e754842fa1c8dc2a425\\res\\values-hr\\values-hr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1982",
-                        "endColumns": "100",
-                        "endOffsets": "2078"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-in_values-in.arsc.flat",
             "map": [
                 {
@@ -141,6 +141,21 @@
                         "startOffsets": "1948",
                         "endColumns": "100",
                         "endOffsets": "2044"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-he_values-he.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.3.0.aar\\0778e7447b503e95962c942a3b394fda\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
                     }
                 }
             ]
@@ -190,21 +205,6 @@
                         "startOffsets": "1933,1987,2034,2134",
                         "endColumns": "53,46,99,81",
                         "endOffsets": "1982,2029,2129,2211"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-he_values-he.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.3.0.aar\\0778e7447b503e95962c942a3b394fda\\res\\values-he\\values-he.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,111,161,296",
-                        "endColumns": "55,49,134,89",
-                        "endOffsets": "106,156,291,381"
                     }
                 }
             ]
@@ -1209,20 +1209,20 @@
             ]
         },
         {
-            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
+            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd02768abc83c1c56528e052710b293b\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd02768abc83c1c56528e052710b293b\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
-                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
-                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                        "startOffsets": "105,214,318,424,510,614,732,814,895,983,1089,1197,1298,1403,1511,1612,1781,1878",
+                        "endColumns": "108,103,105,85,103,117,81,80,87,105,107,100,104,107,100,168,96,83",
+                        "endOffsets": "209,313,419,505,609,727,809,890,978,1084,1192,1293,1398,1506,1607,1776,1873,1957"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c0d4b7b1d33a5e754842fa1c8dc2a425\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c0d4b7b1d33a5e754842fa1c8dc2a425\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1241,20 +1241,20 @@
             ]
         },
         {
-            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "outputFile": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd02768abc83c1c56528e052710b293b\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fd02768abc83c1c56528e052710b293b\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,318,424,510,614,732,814,895,983,1089,1197,1298,1403,1511,1612,1781,1878",
-                        "endColumns": "108,103,105,85,103,117,81,80,87,105,107,100,104,107,100,168,96,83",
-                        "endOffsets": "209,313,419,505,609,727,809,890,978,1084,1192,1293,1398,1506,1607,1776,1873,1957"
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c0d4b7b1d33a5e754842fa1c8dc2a425\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c0d4b7b1d33a5e754842fa1c8dc2a425\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
