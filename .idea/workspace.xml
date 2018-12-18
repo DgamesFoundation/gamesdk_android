@@ -10,77 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f80a873e-0279-4b09-9a8d-59aebc8939eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$10.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$4.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$5.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$6.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$7.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$8.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity$9.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/dgames/sdkdemo/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3q6lFWPxXok0VAcqY6PBmVyaBH8=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/3q6lFWPxXok0VAcqY6PBmVyaBH8=" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/qQe1alFR2f+S1OpcfdeQ8U+5sHI=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/qQe1alFR2f+S1OpcfdeQ8U+5sHI=" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_anim_float_ball_loading.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_anim_float_ball_loading.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_bg_common.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_bg_common.png.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_dgame_loading_bg.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_dgame_loading_bg.png.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_dgame_loading_circle.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_dgame_loading_circle.png.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_179_float_logo.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_179_float_logo.png.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_frame_of_float_logo.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_frame_of_float_logo.png.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_dgame_loading_progressbar.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable_dgame_loading_progressbar.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_scan.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_scan.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_dgame_loading_dialog.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_dgame_loading_dialog.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_float_button_base.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_view_float_button_base.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$10.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$3.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$4.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$5.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$6.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$7.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$7.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$8.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$8.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity$9.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/50/com/dgames/sdkdemo/MainActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/1/classes2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/app/libs/dg_libproject.aar" afterPath="$PROJECT_DIR$/app/libs/dg_libproject.aar" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dgames/sdkdemo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dgames/sdkdemo/MainActivity.java" />
-    </list>
+    <list default="true" id="f80a873e-0279-4b09-9a8d-59aebc8939eb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dgames/sdkdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2191">
-              <caret line="405" column="20" lean-forward="true" selection-start-line="405" selection-start-column="20" selection-end-line="405" selection-end-column="20" />
+              <caret line="405" column="20" lean-forward="false" selection-start-line="405" selection-start-column="20" selection-end-line="405" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#10414#10415#0" expanded="true" />
@@ -2812,7 +2742,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dgames/sdkdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2191">
-          <caret line="405" column="20" lean-forward="true" selection-start-line="405" selection-start-column="20" selection-end-line="405" selection-end-column="20" />
+          <caret line="405" column="20" lean-forward="false" selection-start-line="405" selection-start-column="20" selection-end-line="405" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#10414#10415#0" expanded="true" />
