@@ -12,3 +12,4 @@
 7.Added a recharge interface for game players to freely select the recharge address  
 8.Added an interface for the game player to directly tune the DGAs or dgame recharge sub chain currency   
 9.Modify the domain name, change HTTP to https, and distinguish all formal and test URL addresses  
+10.The transfer interface function of ERC_721 is added for the player to choose the fixed transfer address  
