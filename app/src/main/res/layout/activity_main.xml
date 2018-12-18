@@ -226,13 +226,20 @@
                 android:background="@drawable/big"
 
                 />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorback" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/btn_asset"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="20dp"
+
             android:background="@color/colorwhilte">
 
             <RelativeLayout
@@ -260,13 +267,60 @@
                 android:background="@drawable/big"
 
                 />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorback" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_asset_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:background="@color/colorwhilte">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/trans_erc_721_address"
+                    android:textColor="@color/colortext"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/big"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorback" />
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/btn_recharge"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="20dp"
             android:background="@color/colorwhilte">
 
             <RelativeLayout

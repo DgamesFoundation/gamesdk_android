@@ -6,6 +6,7 @@
     <string name="query_sub_chain">查询子链余额</string>
     <string name="query_dgas">查询dgas余额</string>
     <string name="trans_erc_721">转账ERC_721</string>
+    <string name="trans_erc_721_address">转账ERC_721测试地址</string>
     <string name="recharge_sub_chain">充值子链币</string>
     <string name="login">登录</string>
     <string name="person_center">个人中心</string>

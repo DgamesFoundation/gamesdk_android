@@ -6,7 +6,7 @@ INJECTED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:2
 INJECTED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:2:1-22:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\a3ccc7e593644e832cb19699f4190374\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:17:1-22:12
-MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:2:1-112:12
+MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:2:1-112:12
 MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\88cb6f8df85d33e707acdcc61dc74134\AndroidManifest.xml:1:1-2:50
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a3f06d471f4be2064f7e0a42dad52aed\AndroidManifest.xml:17:1-22:12
@@ -38,20 +38,20 @@ INJECTED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:2
 		ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:5:5-20:19
-MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:70:5-110:19
-MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:70:5-110:19
+MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:70:5-110:19
+MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:70:5-110:19
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:45:5-53:19
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:45:5-53:19
 	android:supportsRtl
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:75:9-35
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:75:9-35
 	android:label
 		ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:8:9-41
 	android:hardwareAccelerated
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:72:9-43
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:72:9-43
 	android:roundIcon
 		ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:9:9-54
 	android:largeHeap
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:74:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:74:9-33
 	android:icon
 		ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
@@ -59,7 +59,7 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrato
 	android:theme
 		ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:10:9-67
 	android:usesCleartextTraffic
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:77:9-44
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:77:9-44
 activity#com.dgames.sdkdemo.MainActivity
 ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:11:9-19:20
 	android:screenOrientation
@@ -84,8 +84,8 @@ MERGED from [com.android.support:multidex:1.0.3] C:\Users\Administrator\.gradle\
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\a3ccc7e593644e832cb19699f4190374\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:20:5-44
-MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:8:5-10:41
-MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:8:5-10:41
+MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:8:5-10:41
+MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:8:5-10:41
 MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\88cb6f8df85d33e707acdcc61dc74134\AndroidManifest.xml:2:1-39
 MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\88cb6f8df85d33e707acdcc61dc74134\AndroidManifest.xml:2:1-39
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:19:5-43
@@ -121,161 +121,161 @@ INJECTED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml
 		ADDED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:12:5-67
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:12:22-64
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.GET_TASKS
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:13:5-68
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:13:5-68
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:13:22-65
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:13:22-65
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:14:5-75
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:14:5-75
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:14:22-72
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:14:22-72
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:15:5-76
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:15:22-73
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:15:22-73
 uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:16:5-80
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:16:22-77
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:17:5-19:47
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:17:5-19:47
 	tools:ignore
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:19:9-44
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:19:9-44
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:18:9-68
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:18:9-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:20:5-81
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:20:22-78
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:20:22-78
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:21:5-88
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:21:5-88
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:21:22-85
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:21:22-85
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:22:5-79
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:22:22-76
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:22:22-76
 uses-permission#android.permission.READ_PHONE_NUMBERS
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:23:5-77
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:23:5-77
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:23:22-74
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:23:22-74
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:24:5-80
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:24:22-77
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:24:22-77
 permission#android.permission.INSTALL_PACKAGES
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:26:5-70
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:26:5-70
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:26:17-67
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:26:17-67
 uses-permission#android.permission.CAMERA
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:28:5-65
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:28:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:21:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:28:22-62
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:28:22-62
 uses-permission#android.permission.CALL_PHONE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:29:5-69
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:29:5-69
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:29:22-66
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:29:22-66
 uses-permission#android.permission.FLASHLIGHT
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:30:5-69
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:30:5-69
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:30:22-66
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:30:22-66
 permission#android.permission.LOCATION_HARDWARE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:32:5-71
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:32:5-71
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:32:17-68
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:32:17-68
 permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:33:5-74
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:33:5-74
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:33:17-71
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:33:17-71
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:35:5-79
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:35:5-79
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:35:22-76
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:35:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:37:5-79
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:37:5-79
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:37:22-76
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:37:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:38:5-81
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:38:5-81
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:38:22-78
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:38:22-78
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:39:5-83
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:39:5-83
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:39:22-80
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:39:22-80
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:41:5-74
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:41:5-74
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:41:22-71
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:41:22-71
 uses-feature#android.hardware.camera
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:43:5-45:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:43:5-45:36
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:24:5-26:36
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:45:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:45:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:44:9-47
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:44:9-47
 uses-feature#android.hardware.fingerprint
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:46:5-48:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:46:5-48:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:48:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:48:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:47:9-52
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:47:9-52
 uses-feature#android.hardware.camera.autofocus
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:49:5-51:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:49:5-51:36
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:32:5-34:36
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:32:5-34:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:51:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:51:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:50:9-57
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:50:9-57
 uses-feature#android.hardware.telephony
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:52:5-54:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:52:5-54:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:54:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:54:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:53:9-50
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:53:9-50
 uses-feature#android.hardware.location
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:55:5-57:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:55:5-57:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:57:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:57:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:56:9-49
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:56:9-49
 uses-feature#android.hardware.location.gps
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:58:5-60:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:58:5-60:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:60:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:60:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:59:9-53
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:59:9-53
 uses-feature#android.hardware.location.network
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:61:5-63:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:61:5-63:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:63:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:63:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:62:9-57
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:62:9-57
 uses-feature#android.hardware.microphone
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:64:5-66:36
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:64:5-66:36
 	android:required
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:66:9-33
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:66:9-33
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:65:9-51
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:65:9-51
 supports-screens
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:68:5-51
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:68:5-51
 	android:anyDensity
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:68:23-48
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:68:23-48
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:94:9-97:49
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:94:9-97:49
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:46:9-52:63
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:46:9-52:63
 	android:clearTaskOnLaunch
 		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:48:13-45
 	android:screenOrientation
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:96:13-51
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:96:13-51
 		REJECTED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:49:13-56
 	android:stateNotNeeded
 		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:50:13-42
@@ -284,31 +284,31 @@ MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrato
 	android:theme
 		ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:51:13-54
 	tools:replace
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:97:13-46
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:97:13-46
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:95:13-74
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:95:13-74
 activity#com.dgames.sdk.ui.SDKActivity
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:98:9-102:75
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:98:9-102:75
 	android:launchMode
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:101:13-43
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:101:13-43
 	android:hardwareAccelerated
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:100:13-47
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:100:13-47
 	android:theme
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:102:13-72
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:102:13-72
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:99:13-57
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:99:13-57
 activity#com.dgames.sdk.ui.ScanActivity
-ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:104:9-109:63
+ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:104:9-109:63
 	android:screenOrientation
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:106:13-49
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:106:13-49
 	android:stateNotNeeded
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:107:13-42
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:107:13-42
 	android:windowSoftInputMode
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:109:13-60
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:109:13-60
 	android:theme
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:108:13-54
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:108:13-54
 	android:name
-		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\455d78349b6d51c8b58d49ecf9068e7b\AndroidManifest.xml:105:13-58
+		ADDED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\7f69a202517eaed0da57feab2660933f\AndroidManifest.xml:105:13-58
 uses-feature#android.hardware.camera.front
 ADDED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:27:5-29:36
 	android:required

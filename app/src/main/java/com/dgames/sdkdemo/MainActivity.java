@@ -32,16 +32,14 @@ import org.json.JSONObject;
 
 import java.util.List;
 public class MainActivity extends Activity implements View.OnClickListener {
-    private RelativeLayout btn_center, btn_login, btn_pay, btn_pay_address,btn_query, btn_asset, btn_query_game, btn_query_dgas,btn_recharge,layout;
+    private RelativeLayout btn_center, btn_login, btn_pay, btn_pay_address,btn_query, btn_asset,btn_asset_address, btn_query_game, btn_query_dgas,btn_recharge,layout;
     private EditText edit;
     private String[] perms;
     private String appId = "V431rSWOMpq3xGGJYSQTGH5oxlMBiXjJRw";
     //star  appid
 //    private String appId = "VxIlXUGPLo-XmtB1COUHnUHEYePEBXNXXA";
     //Offline Subchain Query Address
-//    private String export_browse = "http://192.168.60.16:801";
-    //On-line Sublink Query Address
-    private String export_browse = "http://47.105.47.88:4490";
+    private String export_browse = "http://192.168.60.16:801";
     private String decimals = "100000000";
     private String language = "en";
     //erc token id
@@ -52,7 +50,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private static final int REQUEST_CODE_SDK_RESULT_PERMISSIONS = 102;
     private boolean showRequestPermission = false;
     private String fromAddress = "";
-    private String uname="";
     private String toAddress="V3WW6Ilp0F8ZQ3e1i9EvYU21oF61bZMUgg";
     //Game equipment information
     private String equip_info;
@@ -79,6 +76,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_pay = findViewById(R.id.btn_pay);
         btn_query =  findViewById(R.id.btn_query);
         btn_asset =  findViewById(R.id.btn_asset);
+        btn_asset_address=findViewById(R.id.btn_asset_address);
         btn_query_game = findViewById(R.id.btn_query_game);
         btn_query_dgas = findViewById(R.id.btn_query_dgas);
         btn_pay_address=findViewById(R.id.btn_pay_address);
@@ -90,6 +88,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_pay.setOnClickListener(this);
         btn_query.setOnClickListener(this);
         btn_asset.setOnClickListener(this);
+        btn_asset_address.setOnClickListener(this);
         btn_query_game.setOnClickListener(this);
         btn_query_dgas.setOnClickListener(this);
         btn_pay_address.setOnClickListener(this);
@@ -249,11 +248,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.btn_asset:
                 transLateErc();
                 break;
+            case R.id.btn_asset_address:
+                transLateErcAddress();
+                break;
             case R.id.btn_query_game:
-                queryGameAmount(fromAddress);
+                queryGameAmount();
                 break;
             case R.id.btn_query_dgas:
-                queryDgasAmount(fromAddress);
+                queryDgasAmount();
                 break;
             case R.id.btn_recharge:
                 subStringRecharge();
@@ -352,8 +354,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private void queryErc() {
         DGameManager.gameQueryAssetErc(tokenId, new ICallBack() {
             @Override
-            public void invoke(String str) {
+            public String invoke(String str) {
                 ToastFactory.showToast(MainActivity.this, str);
+                return str;
             }
         });
     }
@@ -384,10 +387,36 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    //Query account subchain balance
-    private void queryGameAmount(String address) {
+    private void transLateErcAddress() {
         if (DGameManager.isLogin() == Config.LOGIN) {
-            String str = DGameManager.queryGameAmount(address);
+            orderId = String.valueOf(Math.random() * 1000000000);
+            if (tokenId == null || tokenId.equals("")) {
+                ToastFactory.showToast(this, "Please enter erc TokenID!");
+            } else {
+                DGameManager.setSDKTransErcCallback(new ITransdErcCallBack() {
+                    @Override
+                    public void onTransErcSuccess(String successStr) {
+                        ToastFactory.showToast(MainActivity.this, successStr);
+                        Log.e("++++successStr++++++", successStr);
+                    }
+
+                    @Override
+                    public void onTransErcFail(String failedStr) {
+                        ToastFactory.showToast(MainActivity.this, failedStr);
+                    }
+                });
+                DGameManager.transErcAddress(MainActivity.this, orderId, toAddress,tokenId, equip_info, comment_erc);
+                Log.e("++++comment++++++", comment_erc);
+            }
+        } else {
+            login();
+        }
+    }
+
+    //Query account subchain balance
+    private void queryGameAmount() {
+        if (DGameManager.isLogin() == Config.LOGIN) {
+            String str = DGameManager.queryGameAmount(MainActivity.this);
             ToastFactory.showToast(MainActivity.this, "The balance of the user's sub chain currency is==" + str);
         } else {
             login();
@@ -395,12 +424,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     //Query account DGAs balance
-    private void queryDgasAmount(String address) {
+    private void queryDgasAmount() {
         if (DGameManager.isLogin() == Config.LOGIN) {
-            DGameManager.queryDgasAmount(address, new ICallBack() {
+            DGameManager.queryDgasAmount( new ICallBack() {
                 @Override
-                public void invoke(String str) {
+                public String invoke(String str) {
                     ToastFactory.showToast(MainActivity.this, "The DGAs balance of the user is==" + str);
+                    return str;
                 }
             });
         } else {

@@ -3,6 +3,8 @@ service:
     erc721:
       chaincodeName: erc721_001
       open: true
+    fabric:
+      chaincodeName: gamepaicore_01
 logging:
     level: info
     client: info
