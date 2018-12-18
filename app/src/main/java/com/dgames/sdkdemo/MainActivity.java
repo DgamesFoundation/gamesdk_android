@@ -1,47 +1,54 @@
 package com.dgames.sdkdemo;
 
-import android.Manifest;
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+
 import android.net.Uri;
-import android.provider.Settings;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
+import android.Manifest;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
-import com.dgames.sdk.DGameManager;
 import com.dgames.sdk.ILoginCallBack;
 import com.dgames.sdk.IPayCallback;
+import com.dgames.sdk.DGameManager;
 import com.dgames.sdk.ITransdErcCallBack;
 import com.dgames.sdk.PermissionListener;
 import com.dgames.sdk.bean.Config;
-import com.dgames.sdk.utils.FloatGravity;
+import com.dgames.sdk.contants.DG_Constants;
 import com.dgames.sdk.utils.PermissionUtils;
+import com.dgames.sdk.utils.FloatGravity;
 import com.dgames.sdk.utils.ToastFactory;
 import com.dgames.sdk.wallet.ICallBack;
+import com.dgames.sdk.wallet.game.GameWallet;
+import com.kenai.jffi.Main;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.List;
-public class MainActivity extends Activity implements View.OnClickListener {
-    private RelativeLayout btn_center, btn_login, btn_pay, btn_pay_address,btn_query, btn_asset,btn_asset_address, btn_query_game, btn_query_dgas,btn_recharge,layout;
+
+
+public class
+MainActivity extends Activity implements View.OnClickListener {
+    private RelativeLayout btn_center, btn_login, btn_pay, btn_query, btn_asset, btn_query_game, btn_query_dgas, btn_pay_address, btn_recharge, layout,btn_asset_address;
     private EditText edit;
     private String[] perms;
     private String appId = "V431rSWOMpq3xGGJYSQTGH5oxlMBiXjJRw";
     //star  appid
-//    private String appId = "VxIlXUGPLo-XmtB1COUHnUHEYePEBXNXXA";
-    //Offline Subchain Query Address
+    //private String appId = "VxIlXUGPLo-XmtB1COUHnUHEYePEBXNXXA";
     private String export_browse = "http://192.168.60.16:801";
+    // private String export_browse = "http://47.105.47.88:4490";
     private String decimals = "100000000";
-    private String language = "en";
+    private String language = "cn";
     //erc token id
     private String tokenId = "458";
     public Config config;
@@ -50,7 +57,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private static final int REQUEST_CODE_SDK_RESULT_PERMISSIONS = 102;
     private boolean showRequestPermission = false;
     private String fromAddress = "";
-    private String toAddress="V3WW6Ilp0F8ZQ3e1i9EvYU21oF61bZMUgg";
+    private String uname = "";
+    private String toAddress = "V3WW6Ilp0F8ZQ3e1i9EvYU21oF61bZMUgg";
     //Game equipment information
     private String equip_info;
     private String id = "123456789";
@@ -59,11 +67,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private String price = "100";
     private String remarks = "jksgihjsmbhgtswjhjm";
     //server class id
-    String  serverId="gmnkmjmbynmsm";
+    String serverId = "gmnkmjmbynmsm";
     // ID includes appid, server class ID, game device ID
-    private String comment_erc = appId+","+serverId+","+ id;
+    private String comment_erc = appId + "," + serverId + "," + id;
     //pay msg
-    private String comment="pay_message";
+    private String comment = "pay_message";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,25 +82,25 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_center = findViewById(R.id.btn_center);
         btn_login = findViewById(R.id.btn_login);
         btn_pay = findViewById(R.id.btn_pay);
-        btn_query =  findViewById(R.id.btn_query);
-        btn_asset =  findViewById(R.id.btn_asset);
-        btn_asset_address=findViewById(R.id.btn_asset_address);
+        btn_query = findViewById(R.id.btn_query);
+        btn_asset = findViewById(R.id.btn_asset);
         btn_query_game = findViewById(R.id.btn_query_game);
         btn_query_dgas = findViewById(R.id.btn_query_dgas);
-        btn_pay_address=findViewById(R.id.btn_pay_address);
-        btn_recharge=findViewById(R.id.btn_recharge);
-        layout=findViewById(R.id.layout);
+        btn_pay_address = findViewById(R.id.btn_pay_address);
+        btn_recharge = findViewById(R.id.btn_recharge);
+        btn_asset_address=findViewById(R.id.btn_asset_address);
+        layout = findViewById(R.id.layout);
 
         btn_center.setOnClickListener(this);
         btn_login.setOnClickListener(this);
         btn_pay.setOnClickListener(this);
         btn_query.setOnClickListener(this);
         btn_asset.setOnClickListener(this);
-        btn_asset_address.setOnClickListener(this);
         btn_query_game.setOnClickListener(this);
         btn_query_dgas.setOnClickListener(this);
         btn_pay_address.setOnClickListener(this);
         btn_recharge.setOnClickListener(this);
+        btn_asset_address.setOnClickListener(this);
 
         getConfig();
         perms = new String[]{
@@ -105,29 +113,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         permissionUtils = new PermissionUtils(this);
         setPermission();
         equip_info = getEquipInfo(id, jpg, name, price, remarks);
-        DGameManager.setSDKLoginCallback(new ILoginCallBack() {
-            @Override
-            public void OnSuccess(String message) {
-                try {
-                    JSONObject object = new JSONObject(message);
-                    //Login validation callback
-                    String signdata = object.getString("signdata");
-                    String uname = object.getString("uname");
-                    fromAddress = object.getString("address");
 
-                    ToastFactory.showToast(MainActivity.this, signdata);
-                    Log.e("++++signdata++++++", message);
-                    //Display suspension ball
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
+        //login callback
+        loginCallBack();
+        //pay callback
+        payCallBack();
+        //erc_721 callback
+        ercTransCallBack();
 
-            @Override
-            public void OnFailed(String msg) {
-                ToastFactory.showToast(MainActivity.this, msg);
-            }
-        });
     }
 
     private String getEquipInfo(String id, String jpg, String name, String price, String remarks) {
@@ -219,7 +212,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         //double-precision value
         config.setDecimals(decimals);
         //Screen vertical screen setting,Horizontal screen is true
-//        config.setLandscape(false);
+        config.setLandscape(false);
         //Is URL a test version or a formal version for dgame
         config.setDgameDebug(true);
         //Set project language
@@ -264,7 +257,31 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
         }
     }
+    private void loginCallBack(){
+        DGameManager.setSDKLoginCallback(new ILoginCallBack() {
+            @Override
+            public void OnSuccess(String message) {
+                try {
+                    JSONObject object = new JSONObject(message);
+                    //Login validation callback
+                    String signdata = object.getString("signdata");
+                    uname = object.getString("uname");
+                    fromAddress = object.getString("address");
 
+                    ToastFactory.showToast(MainActivity.this, signdata);
+                    Log.e("++++signdata++++++", message);
+                    //Display suspension ball
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void OnFailed(String msg) {
+                ToastFactory.showToast(MainActivity.this, msg);
+            }
+        });
+    }
     public void login() {
         DGameManager.login(MainActivity.this);
     }
@@ -277,6 +294,33 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
+    public void payCallBack(){
+        DGameManager.setSDKPayCallback(new IPayCallback() {
+            @Override
+            public void onPaySuccess(final String jsonStr) {
+                try {
+                    JSONObject object = new JSONObject(jsonStr);
+                    //Payment order number
+                    String payOrderId = object.getString("payOrderId");
+                    //Transaction Number
+                    String txid = object.getString("txid");
+                    Log.e("++++jsonStr++++++", jsonStr);
+
+                    ToastFactory.showToast(MainActivity.this, jsonStr);
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onPayFail(final String error) {
+                Toast.makeText(MainActivity.this, error, Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
     public void pay() {
         if (DGameManager.isLogin() == Config.LOGIN) {
             orderId = String.valueOf(Math.random() * 1000000000);
@@ -286,27 +330,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             } else if (amount.equals("0")) {
                 ToastFactory.showToast(this, "amount can not be 0,Please enter amount!");
             } else {
-                DGameManager.setSDKPayCallback(new IPayCallback() {
-                    @Override
-                    public void onPaySuccess(String jsonStr) {
-                        try {
-                            JSONObject object = new JSONObject(jsonStr);
-                            //Payment order number
-                            String payOrderId = object.getString("payOrderId");
-                            //Transaction Number
-                            String txid = object.getString("txid");
-                            Log.e("++++jsonStr++++++", jsonStr);
-                            ToastFactory.showToast(MainActivity.this, jsonStr.toString());
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }
-
-                    @Override
-                    public void onPayFail(String error) {
-                        ToastFactory.showToast(MainActivity.this, error);
-                    }
-                });
                 DGameManager.pay(MainActivity.this, orderId, amount, comment + System.currentTimeMillis() + "");
             }
         } else {
@@ -323,27 +346,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             } else if (amount.equals("0")) {
                 ToastFactory.showToast(this, "amount can not be 0,Please enter amount!");
             } else {
-                DGameManager.setSDKPayCallbackAddress(new IPayCallback() {
-                    @Override
-                    public void onPaySuccess(String jsonStr) {
-                        try {
-                            JSONObject object = new JSONObject(jsonStr);
-                            //Payment order number
-                            String payOrderId = object.getString("payOrderId");
-                            //Transaction Number
-                            String txid = object.getString("txid");
-                            Log.e("++++jsonStr++++++", jsonStr);
-                            ToastFactory.showToast(MainActivity.this, jsonStr.toString());
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }
-
-                    @Override
-                    public void onPayFail(String error) {
-                        ToastFactory.showToast(MainActivity.this, error);
-                    }
-                });
                 DGameManager.payAddress(MainActivity.this, orderId, toAddress, amount, comment + System.currentTimeMillis());
             }
         } else {
@@ -361,24 +363,28 @@ public class MainActivity extends Activity implements View.OnClickListener {
         });
     }
 
+    private void ercTransCallBack(){
+        DGameManager.setSDKTransErcCallback(new ITransdErcCallBack() {
+            @Override
+            public void onTransErcSuccess(String successStr) {
+                ToastFactory.showToast(MainActivity.this, successStr);
+                Log.e("++++successStr++++++", successStr);
+            }
+
+            @Override
+            public void onTransErcFail(String failedStr) {
+                ToastFactory.showToast(MainActivity.this, failedStr);
+            }
+        });
+    }
+
     private void transLateErc() {
         if (DGameManager.isLogin() == Config.LOGIN) {
             orderId = String.valueOf(Math.random() * 1000000000);
             if (tokenId == null || tokenId.equals("")) {
                 ToastFactory.showToast(this, "Please enter erc TokenID!");
             } else {
-                DGameManager.setSDKTransErcCallback(new ITransdErcCallBack() {
-                    @Override
-                    public void onTransErcSuccess(String successStr) {
-                        ToastFactory.showToast(MainActivity.this, successStr);
-                        Log.e("++++successStr++++++", successStr);
-                    }
 
-                    @Override
-                    public void onTransErcFail(String failedStr) {
-                        ToastFactory.showToast(MainActivity.this, failedStr);
-                    }
-                });
                 DGameManager.transErc(MainActivity.this, orderId, tokenId, equip_info, comment_erc);
                 Log.e("++++comment++++++", comment_erc);
             }
@@ -393,19 +399,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             if (tokenId == null || tokenId.equals("")) {
                 ToastFactory.showToast(this, "Please enter erc TokenID!");
             } else {
-                DGameManager.setSDKTransErcCallback(new ITransdErcCallBack() {
-                    @Override
-                    public void onTransErcSuccess(String successStr) {
-                        ToastFactory.showToast(MainActivity.this, successStr);
-                        Log.e("++++successStr++++++", successStr);
-                    }
-
-                    @Override
-                    public void onTransErcFail(String failedStr) {
-                        ToastFactory.showToast(MainActivity.this, failedStr);
-                    }
-                });
-                DGameManager.transErcAddress(MainActivity.this, orderId, toAddress,tokenId, equip_info, comment_erc);
+                DGameManager.transErcAddress(MainActivity.this, orderId,toAddress,tokenId, equip_info, comment_erc);
                 Log.e("++++comment++++++", comment_erc);
             }
         } else {
@@ -416,38 +410,37 @@ public class MainActivity extends Activity implements View.OnClickListener {
     //Query account subchain balance
     private void queryGameAmount() {
         if (DGameManager.isLogin() == Config.LOGIN) {
-            String str = DGameManager.queryGameAmount(MainActivity.this);
+            final String str = DGameManager.queryGameAmount(MainActivity.this);
             ToastFactory.showToast(MainActivity.this, "The balance of the user's sub chain currency is==" + str);
         } else {
-            login();
+            ToastFactory.showToast(MainActivity.this, "Please login again!");
         }
     }
 
     //Query account DGAs balance
     private void queryDgasAmount() {
         if (DGameManager.isLogin() == Config.LOGIN) {
-            DGameManager.queryDgasAmount( new ICallBack() {
+            DGameManager.queryDgasAmount(new ICallBack() {
                 @Override
-                public String invoke(String str) {
+                public String invoke(final String str) {
                     ToastFactory.showToast(MainActivity.this, "The DGAs balance of the user is==" + str);
                     return str;
                 }
             });
         } else {
-            login();
+            ToastFactory.showToast(MainActivity.this, "Please login again!");
         }
-
     }
 
-    //The game player can directly adjust the interface of DGAs or dgame recharge sub chain currency.
+    //recharge sub chain
     private void subStringRecharge() {
-        if(DGameManager.isLogin()==Config.LOGIN){
+        if (DGameManager.isLogin() == Config.LOGIN) {
             DGameManager.rechargeSubChain(MainActivity.this);
-        }else{
+        } else {
             login();
         }
-
     }
+
 
     @Override
     protected void onStart() {
@@ -455,7 +448,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         DGameManager.onStart();
     }
 
-    @SuppressLint("ResourceAsColor")
     @Override
     protected void onResume() {
         super.onResume();
@@ -464,8 +456,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (DGameManager.isLogin() == Config.LOGINOUT) {
             ToastFactory.showToast(MainActivity.this, "The game has quit logon");
         }
+//        DGameManager.onResume();
     }
-
 
 
     @Override
@@ -473,7 +465,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onPause();
         DGameManager.hideFloatingView();
         layout.setVisibility(View.VISIBLE);
-
     }
 
     @Override
@@ -497,6 +488,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         MainActivity.super.onBackPressed();
+                        DGameManager.onDestory();
+                        android.os.Process.killProcess(android.os.Process.myPid());
+                        System.exit(0);
+
                     }
                 })
                 .setNegativeButton("cancel", null)

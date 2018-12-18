@@ -1,10 +1,10 @@
-#Tue Dec 18 11:14:23 CST 2018
+#Tue Dec 18 15:46:50 CST 2018
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=D\:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-base.1=D\:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-base.0=D\:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.2=D\:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.1=D\:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=D\:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
