@@ -356,9 +356,8 @@ MainActivity extends Activity implements View.OnClickListener {
     private void queryErc() {
         DGameManager.gameQueryAssetErc(tokenId, new ICallBack() {
             @Override
-            public String invoke(String str) {
+            public void invoke(String str) {
                 ToastFactory.showToast(MainActivity.this, str);
-                return str;
             }
         });
     }
@@ -422,9 +421,8 @@ MainActivity extends Activity implements View.OnClickListener {
         if (DGameManager.isLogin() == Config.LOGIN) {
             DGameManager.queryDgasAmount(new ICallBack() {
                 @Override
-                public String invoke(final String str) {
+                public void invoke(final String str) {
                     ToastFactory.showToast(MainActivity.this, "The DGAs balance of the user is==" + str);
-                    return str;
                 }
             });
         } else {
