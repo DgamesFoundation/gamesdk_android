@@ -45,8 +45,9 @@ MainActivity extends Activity implements View.OnClickListener {
     private String appId = "V431rSWOMpq3xGGJYSQTGH5oxlMBiXjJRw";
     //star  appid
     //private String appId = "VxIlXUGPLo-XmtB1COUHnUHEYePEBXNXXA";
-    private String export_browse = "http://192.168.60.16:801";
+//    private String export_browse = "http://192.168.60.16:801";
     // private String export_browse = "http://47.105.47.88:4490";
+    private String export_browse = "https://query.fb.dgame.org:4490";
     private String decimals = "100000000";
     private String language = "cn";
     //erc token id
@@ -58,7 +59,8 @@ MainActivity extends Activity implements View.OnClickListener {
     private boolean showRequestPermission = false;
     private String fromAddress = "";
     private String uname = "";
-    private String toAddress = "V3WW6Ilp0F8ZQ3e1i9EvYU21oF61bZMUgg";
+//    private String toAddress = "V6VB9jq4MWXWZZILVPzE85_pX_4VIMbOMw";
+    private String toAddress = "V75ie9xf00MJcMnvA2cX1GN1PpkT73K9Ag";
     //Game equipment information
     private String equip_info;
     private String id = "123456789";
@@ -212,9 +214,9 @@ MainActivity extends Activity implements View.OnClickListener {
         //double-precision value
         config.setDecimals(decimals);
         //Screen vertical screen setting,Horizontal screen is true
-        config.setLandscape(false);
+//        config.setLandscape(false);
         //Is URL a test version or a formal version for dgame
-        config.setDgameDebug(true);
+        config.setDgameDebug(false);
         //Set project language
         config.setLanguage(language);
     }

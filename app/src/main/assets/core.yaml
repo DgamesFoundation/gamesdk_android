@@ -1,7 +1,7 @@
 service:
-    cliaddress: 39.105.120.160:8002
+    cliaddress: api.wallet.dgame.com:8000
     erc721:
-      chaincodeName: erc721_001
+      chaincodeName: erc721_01
       open: true
     fabric:
       chaincodeName: gamepaicore_01
@@ -14,4 +14,4 @@ peer:
     workers: 2
     tls:
         serviceenabled: true
-        serverhostoverride: gateway.helloworld.com
+        serverhostoverride: gateway.onwallet.com
