@@ -106,7 +106,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/big"
+                android:background="@drawable/sdk_rightarr"
                 />
         </RelativeLayout>
 
@@ -139,7 +139,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/big"
+                android:background="@drawable/sdk_rightarr"
 
                 />
 
@@ -181,8 +181,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/big"
-
+                android:background="@drawable/sdk_rightarr"
                 />
 
             <View
@@ -223,7 +222,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/big"
+                android:background="@drawable/sdk_rightarr"
 
                 />
             <View
@@ -264,7 +263,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/big"
+                android:background="@drawable/sdk_rightarr"
 
                 />
             <View
@@ -305,7 +304,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/big"
+                android:background="@drawable/sdk_rightarr"
 
                 />
             <View
@@ -345,7 +344,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerInParent="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/big"
+                android:background="@drawable/sdk_rightarr"
 
                 />
         </RelativeLayout>

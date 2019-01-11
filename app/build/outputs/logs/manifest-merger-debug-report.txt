@@ -7,7 +7,7 @@ INJECTED from D:\duijiesdk\11\gamesdk_android\app\src\main\AndroidManifest.xml:2
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\a3ccc7e593644e832cb19699f4190374\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:17:1-22:12
 MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\d60a6ed3f080e0869ced46d1b4e88ef4\AndroidManifest.xml:2:1-112:12
-MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\0bffd66d12263e455388c713685b248c\AndroidManifest.xml:1:1-2:50
+MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\e2f829b75eb6d5f180d3d8884794dc53\AndroidManifest.xml:1:1-2:50
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a3f06d471f4be2064f7e0a42dad52aed\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a983f1de471084af32f6fb9c0a5de7d2\AndroidManifest.xml:17:1-22:12
@@ -86,8 +86,8 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gr
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:20:5-44
 MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\d60a6ed3f080e0869ced46d1b4e88ef4\AndroidManifest.xml:8:5-10:41
 MERGED from [:dg_libproject:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dg_libproject.aar\d60a6ed3f080e0869ced46d1b4e88ef4\AndroidManifest.xml:8:5-10:41
-MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\0bffd66d12263e455388c713685b248c\AndroidManifest.xml:2:1-39
-MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\0bffd66d12263e455388c713685b248c\AndroidManifest.xml:2:1-39
+MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\e2f829b75eb6d5f180d3d8884794dc53\AndroidManifest.xml:2:1-39
+MERGED from [:gamesdklib:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gamesdklib.aar\e2f829b75eb6d5f180d3d8884794dc53\AndroidManifest.xml:2:1-39
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:19:5-43
 MERGED from [com.journeyapps:zxing-android-embedded:3.3.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.3.0.aar\0778e7447b503e95962c942a3b394fda\AndroidManifest.xml:19:5-43
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a3f06d471f4be2064f7e0a42dad52aed\AndroidManifest.xml:20:5-44

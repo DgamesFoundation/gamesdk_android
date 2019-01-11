@@ -611,8 +611,9 @@ int drawable notification_tile_bg 0x7f060067
 int drawable notify_panel_notification_icon_bg 0x7f060068
 int drawable ques_bg 0x7f060069
 int drawable ques_button 0x7f06006a
-int drawable tooltip_frame_dark 0x7f06006b
-int drawable tooltip_frame_light 0x7f06006c
+int drawable sdk_rightarr 0x7f06006b
+int drawable tooltip_frame_dark 0x7f06006c
+int drawable tooltip_frame_light 0x7f06006d
 int id ALT 0x7f070000
 int id CTRL 0x7f070001
 int id FUNCTION 0x7f070002
