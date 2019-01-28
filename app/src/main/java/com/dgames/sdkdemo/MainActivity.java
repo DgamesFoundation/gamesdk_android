@@ -46,7 +46,7 @@ MainActivity extends Activity implements View.OnClickListener {
     //star  appid
     //private String appId = "VxIlXUGPLo-XmtB1COUHnUHEYePEBXNXXA";
 //    private String export_browse = "http://192.168.60.16:801";
-    // private String export_browse = "http://47.105.47.88:4490";
+     private String debug_export_browse = "http://47.105.47.88:4490";
     private String export_browse = "https://query.fb.dgame.org:4490";
     private String decimals = "100000000";
     private String language = "cn";
@@ -213,6 +213,7 @@ MainActivity extends Activity implements View.OnClickListener {
         config.setApibrowse(export_browse);
         //double-precision value
         config.setDecimals(decimals);
+        config.setDebugApibrowse(debug_export_browse);
         //Screen vertical screen setting,Horizontal screen is true
 //        config.setLandscape(false);
         //Is URL a test version or a formal version for dgame
@@ -411,8 +412,13 @@ MainActivity extends Activity implements View.OnClickListener {
     //Query account subchain balance
     private void queryGameAmount() {
         if (DGameManager.isLogin() == Config.LOGIN) {
-            final String str = DGameManager.queryGameAmount(MainActivity.this);
-            ToastFactory.showToast(MainActivity.this, "The balance of the user's sub chain currency is==" + str);
+           DGameManager.queryGameAmount(MainActivity.this, new ICallBack() {
+                @Override
+                public void invoke(String s) {
+                    ToastFactory.showToast(MainActivity.this, "The balance of the user's sub chain currency is==" + s);
+                }
+            });
+
         } else {
             ToastFactory.showToast(MainActivity.this, "Please login again!");
         }
