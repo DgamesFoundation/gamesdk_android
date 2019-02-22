@@ -51,7 +51,7 @@ MainActivity extends Activity implements View.OnClickListener {
     private String decimals = "100000000";
     private String language = "cn";
     //erc token id
-    private String tokenId = "458";
+    private String tokenId = "999";
     public Config config;
     private String orderId = null;
     private PermissionUtils permissionUtils;
@@ -218,6 +218,7 @@ MainActivity extends Activity implements View.OnClickListener {
 //        config.setLandscape(false);
         //Is URL a test version or a formal version for dgame
         config.setDgameDebug(false);
+        config.setErc721(true);
         //Set project language
         config.setLanguage(language);
     }
@@ -401,7 +402,7 @@ MainActivity extends Activity implements View.OnClickListener {
             if (tokenId == null || tokenId.equals("")) {
                 ToastFactory.showToast(this, "Please enter erc TokenID!");
             } else {
-                DGameManager.transErcAddress(MainActivity.this, orderId,toAddress,tokenId, equip_info, comment_erc);
+                DGameManager.transErcAddress(MainActivity.this, orderId,toAddress,tokenId, comment_erc);
                 Log.e("++++comment++++++", comment_erc);
             }
         } else {
@@ -417,7 +418,7 @@ MainActivity extends Activity implements View.OnClickListener {
                 public void invoke(String s) {
                     ToastFactory.showToast(MainActivity.this, "The balance of the user's sub chain currency is==" + s);
                 }
-            });
+        });
 
         } else {
             ToastFactory.showToast(MainActivity.this, "Please login again!");
