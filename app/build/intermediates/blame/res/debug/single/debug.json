@@ -5,7 +5,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_float_button_base.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\layout\\view_float_button_base.xml"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\layout\\view_float_button_base.xml"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
@@ -401,7 +401,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bg_common.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\drawable-hdpi-v4\\bg_common.png"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\drawable-hdpi-v4\\bg_common.png"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_top.xml.flat",
@@ -421,7 +421,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_179_float_logo.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\drawable-hdpi-v4\\ic_179_float_logo.png"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\drawable-hdpi-v4\\ic_179_float_logo.png"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
@@ -645,7 +645,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dgame_loading_progressbar.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\drawable\\dgame_loading_progressbar.xml"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\drawable\\dgame_loading_progressbar.xml"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -725,7 +725,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\layout_dgame_loading_dialog.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\layout\\dgame_loading_dialog.xml"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\layout\\dgame_loading_dialog.xml"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
@@ -753,7 +753,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_frame_of_float_logo.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\drawable-hdpi-v4\\ic_frame_of_float_logo.png"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\drawable-hdpi-v4\\ic_frame_of_float_logo.png"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
@@ -897,7 +897,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_dgame_loading_bg.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\drawable-hdpi-v4\\dgame_loading_bg.png"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\drawable-hdpi-v4\\dgame_loading_bg.png"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -953,7 +953,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_dgame_loading_circle.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\drawable-hdpi-v4\\dgame_loading_circle.png"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\drawable-hdpi-v4\\dgame_loading_circle.png"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
@@ -1233,7 +1233,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_float_ball_loading.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\anim\\anim_float_ball_loading.xml"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\anim\\anim_float_ball_loading.xml"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1521,7 +1521,7 @@
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\97ea925b2ba65948c00dffdac85d352a\\res\\layout\\activity_scan.xml"
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\dg_libproject.aar\\e2ef01a95d10174d058949aee49735e4\\res\\layout\\activity_scan.xml"
     },
     {
         "merged": "D:\\duijiesdk\\11\\gamesdk_android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
